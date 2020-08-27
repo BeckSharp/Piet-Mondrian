@@ -1,2 +1,3 @@
 # Piet-Mondrian
-Piet Mondrian artwork designed by css
+A website that showcases Piet Mondrians art piece "Composition with Red Blue and Yellow",
+using css grid styling.
