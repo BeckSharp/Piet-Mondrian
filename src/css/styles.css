@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+
+.wrapper {
+    display: grid;
+    grid-auto-rows: 4.7vh;
+    justify-items:stretch;
+    align-items: stretch;
+}
+
+.wrapper > div {
+   border: 8px solid black;
+}
+
+.box1 {
+    background: white;
+    grid-column: 1/4;
+    grid-row: 1/7;
+}
+
+.box2 {
+    background: red;
+    grid-column: 4/20;
+    grid-row: 1/17;
+}
+
+.box3 {
+    background: black;
+    grid-column: 1/4;
+    grid-row: 7;
+}
+
+.box4 {
+    background: white;
+    grid-column: 1/4;
+    grid-row: 8/17;
+}
+
+.box5 {
+    background: blue;
+    grid-column:1/4;
+    grid-row:17/22;
+}
+
+.box6 {
+    background: white;
+    grid-column: 4/19;
+    grid-row: 17/22;
+}
+
+.box7 {
+    background: white;
+    grid-column: 19;
+    grid-row: 17/19;
+}
+
+.box8 {
+    background: black;
+    grid-column: 19;
+    grid-row: 19;
+}
+
+.box9 {
+    background: yellow;
+    grid-column: 19;
+    grid-row: 20/22;
+}
